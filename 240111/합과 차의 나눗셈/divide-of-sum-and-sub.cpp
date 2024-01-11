@@ -1,12 +1,16 @@
 #include <iostream>
-#include <iomanip>
 
 using namespace std;
 
 int main() {
-    int a , b;
+
+    int a, b;
     cin >> a >> b;
-    double result = (double) (a + b) / (a - b);
-    cout << fixed << setprecision(2) << result;
+
+    cout << fixed;
+    cout.precision(2);
+
+    cout << (double) (a+b)/(a-b);
+
     return 0;
 }
