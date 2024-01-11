@@ -4,15 +4,14 @@ using namespace std;
 
 int main() {
     
-    int a,x,y;
-
-    cin>>a;
+    int a, b, c;
+    cin >> a;
     cin.get();
-    cin>>x;
+    cin >> b;
     cin.get();
-    cin>>y;
+    cin >> c;
 
-    cout<<0<<a<<"-"<<y<<"-"<<x;
-
+    
+    cout << "010-" << c << "-" << b;
     return 0;
 }
