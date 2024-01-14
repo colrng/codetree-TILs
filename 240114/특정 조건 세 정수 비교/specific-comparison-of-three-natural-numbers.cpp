@@ -4,23 +4,20 @@ using namespace std;
 
 int main() {
    
-    int a,b,c;
-
+    int a, b, c;
     cin >> a >> b >> c;
-
-    if (a <= b && a <= c ){
-        cout << 1 << " ";
+    
+    
+    if(a <= b && a <= c) {
+        cout << a;
     }
+    
+    else if(b <= a && b <= c) {
+        cout << b;
+    }
+   
     else {
-        cout << 0 <<" ";
-    } 
-
-    if (a == b && a == c && b == c){
-        cout << 1 << " ";
+        cout << c;
     }
-    else {
-        cout << 0 << " ";
-    }
-
     return 0;
 }
