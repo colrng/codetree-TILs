@@ -7,16 +7,13 @@ int main() {
     int a,b;
     cin >> a >> b;
 
-    if (a <= 90) {
-        cout << 0;
-    }
-    else if (b <= 95) {
+    if (a <= 90 || b <= 95) {
         cout << 100000;
     }
     else if (b <= 90){
         cout << 50000;
     }
-    else cout << "";
+    else cout << "0";
 
     return 0;
 }
