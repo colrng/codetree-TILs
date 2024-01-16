@@ -6,7 +6,7 @@ int main() {
 	int a;
 	cin >> a;
 
-	if (a > 20 || a > 10) {
+	if (a > 20 || a < 10) {
 		cout << "yes";
 	}
 	else {
