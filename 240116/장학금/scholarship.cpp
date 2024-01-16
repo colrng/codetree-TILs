@@ -10,7 +10,7 @@ int main() {
     if (a <= 90) {
         cout << 0;
     }
-    else if (b == 100 || b <= 95) {
+    else if (b <= 95) {
         cout << 100000;
     }
     else if (b <= 90){
