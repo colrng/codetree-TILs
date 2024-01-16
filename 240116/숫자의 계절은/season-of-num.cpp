@@ -17,7 +17,8 @@ int main() {
 	else if (a == 8 || a <= 7) {
 		    cout << "Fall";
 	}
-    else cout << "Spring";
-
+    else if (a == 5 || a <= 4) {
+		cout << "Spring";
+	}
     return 0;
 }
