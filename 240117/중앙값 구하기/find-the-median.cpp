@@ -9,7 +9,7 @@ int main() {
 	cin >> a >> b >> c;
     
    
-    if((b < a && a < c) ||(c<b && b<a) ){
+    if((b < a && a < c) || (c<b && b<a)){
 
         cout << a;
     }
@@ -18,10 +18,7 @@ int main() {
         cout << b;
     }
 
-    else{
-
-        cout <<  c;
-    }
+    else cout <<  c;
 
 	return 0;
 }
