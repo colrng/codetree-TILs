@@ -3,22 +3,23 @@
 using namespace std;
 
 int main() {
+
     int a, b, c;
+    cin >> a >> b >> c;
 
-	
-	cin >> a >> b >> c;
-    
-   
-    if((b < a && a < c) || (c<b && b<a)){
-
+    if (a >= b) {
+        if (b >= c)
+            cout << b;
+        else if (a <= c)
+            cout << a;
+        else
+            cout << b;
+    }
+    else if (c < a)
         cout << a;
-    }
-    else if(a < b && b < c ){
-
+    else if (b > c)
+        cout << c;
+    else
         cout << b;
-    }
-
-    else cout <<  c;
-
-	return 0;
+    return 0;
 }
