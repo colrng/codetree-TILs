@@ -9,19 +9,19 @@ int main() {
 	cin >> a >> b >> c;
     
    
-    if(a > b ) {
-		if(a < c)
-			cout << a;
-		else
-			cout << c; 
-	}		
+    if((b < a && a < c) ||(c<b && b<a) ){
 
-	
-	else {
-		if(b > c)
-			cout << b;
-		else
-			cout << c;
-	}
+        cout << a;
+    }
+    else if(a < b && b < c ){
+
+        cout << b;
+    }
+
+    else{
+
+        cout <<  c;
+    }
+
 	return 0;
 }
