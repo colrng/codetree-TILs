@@ -6,9 +6,9 @@ int main() {
 	int n;
 	int cnt = 0;
 
-	for (int i = 1; i < 10; i++) {
+	for (int i = 1; i <= 10; i++) {
 		cin >> n;
-		if (i % 2 == 1 || i / 10 == 1) {
+		if (i % 2 == 1 ) {
 			cnt++;
 		}
 	}
